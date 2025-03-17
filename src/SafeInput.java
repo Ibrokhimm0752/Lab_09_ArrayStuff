@@ -78,9 +78,9 @@ public class SafeInput {
                 }
             } else {
                 System.out.println("Invalid input. Please enter a double.");
-                pipe.next(); // Clear the invalid input
+                pipe.next();
             }
-            pipe.nextLine(); // Clear the newline character
+            pipe.nextLine();
         } while (!isValid);
         return retDouble;
     }
